@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/users/login   //Login
+POST http://localhost:3000/api/users/register   //register
+GET http://localhost:3000/api/users/id   //user
+
+Pins
+POST http://localhost:3000/api/pins/create   //create pin
+PUT http://localhost:3000/api/pins/update/id   //update pin
+DELETE http://localhost:3000/api/pins/id //delete pin
+GET http://localhost:3000/api/pins/search //search pin
+
+Boards
+POST http://localhost:3000/api/boards  //create board
+PUT http://localhost:3000/api/boards/id   //update board
+DELETE http://localhost:3000/api/boards/id //delete board
